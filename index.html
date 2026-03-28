@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TightLines — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+        h1 { font-size: 1.8em; margin-bottom: 4px; }
+        h2 { font-size: 1.25em; margin-top: 28px; margin-bottom: 8px; color: #1a1a1a; }
+        h3 { font-size: 1.05em; margin-top: 16px; margin-bottom: 4px; color: #444; }
+        p { margin-bottom: 12px; }
+        .subtitle { font-size: 0.95em; color: #666; margin-bottom: 24px; }
+        ul { margin-left: 20px; margin-bottom: 12px; }
+        li { margin-bottom: 4px; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; font-size: 0.85em; color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle"><strong>TightLines — Fishing Log &amp; Companion App</strong><br>Last Updated: March 27, 2026</p>
+
+        <h2>Introduction</h2>
+        <p>TightLines ("we," "our," or "the App") is a fishing log and companion application. This Privacy Policy explains how we collect, use, store, and share your information when you use the App. By using TightLines, you agree to the practices described in this policy.</p>
+
+        <h2>Information We Collect</h2>
+
+        <h3>Account Information</h3>
+        <p>When you create an account, we collect:</p>
+        <ul>
+            <li>Email address</li>
+            <li>Password (securely hashed and managed by Firebase Authentication)</li>
+            <li>First and last name</li>
+            <li>Home region (optional)</li>
+            <li>Profile photo (optional)</li>
+        </ul>
+
+        <h3>Fishing Activity Data</h3>
+        <p>When you log catches, trips, and tournaments, we collect:</p>
+        <ul>
+            <li>Species, weight, and length of fish caught</li>
+            <li>Date and time of catches</li>
+            <li>Water conditions</li>
+            <li>Tackle and gear used</li>
+            <li>Trip names, dates, locations, and notes</li>
+            <li>Tournament details and rules</li>
+            <li>Photos you choose to attach to catches or gear</li>
+        </ul>
+
+        <h3>Location Data</h3>
+        <p>With your permission, we collect:</p>
+        <ul>
+            <li>GPS coordinates when you log a catch or save a fishing spot</li>
+            <li>Custom boundary areas you define for fishing spots</li>
+        </ul>
+        <p>Location data is collected only when you actively use location-dependent features and only with your explicit consent through the iOS location permission prompt. We request "When In Use" location access only — we do not track your location in the background.</p>
+
+        <h3>Weather Data</h3>
+        <p>When you log a catch or view weather for a saved spot, we request current and forecast weather data from the Open-Meteo API using the relevant location's coordinates. Weather conditions at the time of a catch (temperature, humidity, wind speed, wind direction, barometric pressure) are stored with your catch record.</p>
+
+        <h3>Preferences and Settings</h3>
+        <p>We store your app preferences locally and in the cloud, including:</p>
+        <ul>
+            <li>Unit preferences (imperial or metric for weight, length, and temperature)</li>
+            <li>Theme and layout choices</li>
+            <li>Privacy visibility settings for your data</li>
+        </ul>
+
+        <h3>Social and Friends Data</h3>
+        <p>If you use the social features, we collect:</p>
+        <ul>
+            <li>Your friends list and friend request history</li>
+            <li>Your public profile (name and profile photo) for search and friend discovery</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use your information to:</p>
+        <ul>
+            <li>Provide and maintain the App's core features (catch logging, trip planning, tackle management)</li>
+            <li>Display your fishing statistics and streak tracking</li>
+            <li>Show weather information for your fishing locations</li>
+            <li>Enable social features including friend connections and leaderboard rankings</li>
+            <li>Sync your data across your devices</li>
+            <li>Respect your privacy settings when sharing data with friends</li>
+        </ul>
+
+        <h2>Data Storage and Security</h2>
+
+        <h3>Local Storage</h3>
+        <p>Your fishing data is stored on your device using Apple's SwiftData framework. Preferences are stored using UserDefaults.</p>
+
+        <h3>Cloud Storage</h3>
+        <p>Your data is synced to Google Firebase services:</p>
+        <ul>
+            <li><strong>Firebase Authentication</strong> securely manages your login credentials</li>
+            <li><strong>Cloud Firestore</strong> stores your fishing records, profile, preferences, and social connections</li>
+            <li><strong>Firebase Storage</strong> stores photos you upload (catch photos, tackle photos, profile photo)</li>
+        </ul>
+        <p>All data is transmitted over encrypted HTTPS connections. Firebase handles authentication tokens and session management securely.</p>
+
+        <h3>Data Retention</h3>
+        <p>Your data is retained as long as your account is active. You may delete individual records (catches, spots, tackle, trips, tournaments) at any time within the App. To request complete account and data deletion, please contact us at the email address below.</p>
+
+        <h2>Information Sharing</h2>
+
+        <h3>With Other Users</h3>
+        <p>Based on your privacy settings, other TightLines users who are your friends may see:</p>
+        <ul>
+            <li>Your catches and statistics (if set to "Friends Only" or "Public")</li>
+            <li>Your fishing spots (if set to "Friends Only" or "Public")</li>
+            <li>Your tournament data (if set to "Friends Only" or "Public")</li>
+        </ul>
+        <p>You control the visibility of each data category independently through the App's Privacy Settings.</p>
+
+        <h3>With Third-Party Services</h3>
+        <p>We use the following third-party services:</p>
+        <ul>
+            <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage) — for account management, data storage, and photo hosting. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+            <li><strong>Open-Meteo</strong> — for weather data. We send location coordinates to retrieve weather information. See <a href="https://open-meteo.com/en/terms">Open-Meteo's Terms</a>.</li>
+            <li><strong>Apple MapKit</strong> — for map display and reverse geocoding of locations. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
+        </ul>
+
+        <h3>We Do Not</h3>
+        <ul>
+            <li>Sell your personal information to third parties</li>
+            <li>Use your data for advertising or ad targeting</li>
+            <li>Share your data with data brokers</li>
+            <li>Use third-party analytics or tracking SDKs</li>
+            <li>Collect your device's advertising identifier (IDFA)</li>
+        </ul>
+
+        <h2>Your Rights and Choices</h2>
+
+        <h3>Data Control</h3>
+        <p>You can:</p>
+        <ul>
+            <li>View, edit, or delete any of your fishing records within the App</li>
+            <li>Adjust privacy visibility settings for your catches, statistics, spots, and tournaments</li>
+            <li>Remove friends and revoke access to your shared data</li>
+            <li>Choose not to grant location or camera permissions (some features will be limited)</li>
+        </ul>
+
+        <h3>Account Deletion</h3>
+        <p>You may request deletion of your account and all associated data by contacting us. Upon deletion, we will remove your profile, fishing records, photos, friend connections, and preferences from our servers.</p>
+
+        <h3>Location and Camera Permissions</h3>
+        <p>You can revoke location or camera access at any time through your device's Settings. The App will continue to function with reduced capabilities.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>TightLines is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us and we will delete it promptly.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of material changes by updating the "Last Updated" date at the top of this policy. Your continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy or wish to exercise your data rights, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:d.james.pruitt@gmail.com">d.james.pruitt@gmail.com</a></p>
+
+        <div class="footer">
+            <p>This privacy policy is effective as of March 27, 2026.</p>
+        </div>
+    </div>
+</body>
+</html>
